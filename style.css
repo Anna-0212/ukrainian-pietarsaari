@@ -1,0 +1,1066 @@
+body {
+    margin: 0;
+}
+ /* top */
+#menu-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: rgb(1, 22, 89);
+}
+#email {
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+}
+#container-flags {
+    display: flex;
+    margin: 15px 20px;
+}
+.flag {
+    padding-left: 5px;
+    width: 30px;
+    height: 18px;
+}
+.socialMedia {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+#heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: rgb(1, 22, 89);
+}
+#logo {
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left:  150px;
+    margin-bottom: 20px;
+}
+#heading-name {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.link {
+    text-decoration: none;
+    /* font-family: 'Avanti', arial;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(1, 22, 89);
+    text-align: center;
+    padding: 10px 5px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+
+/* titles */
+.header {
+    display: flex;
+    justify-content: center;
+}
+.main-info {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pictures-BG {
+    /* background-color: rgb(111, 159, 213); */
+    padding: 10px; 
+    position: relative;
+    padding-top: 40px;
+}
+.image-one {
+    top: 50px; 
+    left: 55px; 
+    z-index: 5; 
+    width: 600px;
+    height: 450px;
+}
+.image-two {
+    left: 60px; 
+    top: 100px; 
+    z-index: 2; 
+    position: absolute;
+    border-radius: 10px;
+    width: 450px;
+}
+
+h2 {
+    font-size: 40px;
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 22, 89);
+    padding-top: 25px;
+    text-shadow: 2px 2px  rgb(253, 212, 1);
+}
+.text {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.text-one {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+p {
+    font-size: 23px;
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 22, 89);
+    text-align: justify;
+}
+
+/* pravlinnia */
+
+h3 {
+    font-size: 25px;
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: rgb(1, 22, 89);
+    padding-top: 25px;
+    padding-left: 50px;
+}
+li {
+    font-size: 20px;
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 22, 89);
+    padding-top: 10px;
+    /* font-style: italic; */
+}
+
+
+/* heart+links */
+.container-heart {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box-heart {
+    align-self: flex-end;
+}
+#heart {
+    width: 300px;
+    margin-left: 100px;
+}
+.container-statut {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px; 
+}
+a {
+    text-decoration: none;
+    color: rgb(1, 22, 89);
+}
+a:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s;
+}
+.statut {
+    text-decoration: none;
+    font-size: 20px;
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    margin-left: 90px;
+}
+.text-direction {
+    font-weight: bold;
+    font-size: 25px;
+    /* text-shadow: 1px 1px; */
+}
+.text-two {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* news
+.image-news {
+    width: 200px;
+    margin-left: 50px; 
+    margin-top: 45px; 
+    z-index: 2; 
+    /* position: absolute; */
+    /* border-radius: 10px;
+}
+.text-news {
+    font-size: 20px;
+    margin-left: 50px;
+}  */
+
+/* donate */
+.text-donate {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(1, 22, 89); */
+}
+.box-donation-blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 21, 170);
+    margin: 10px;
+    width: 40%;
+    /* height: 115vh; */
+    border-radius: 20px;
+}
+.box-donation-yellow {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 212, 1);
+    margin: 10px;
+    width: 40%;
+    align-items: center;
+    border-radius: 20px;
+}
+.donation {
+    font-size: 25px;
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(229, 229, 229);
+    font-weight: lighter;
+}
+
+/* merch-karusel */
+
+.merch-box {
+    display: flex;
+    justify-content: center;
+}
+.merch {
+    width: 300px;
+    height: 380px;
+}
+.btn-merch {
+    background-color:  rgb(229, 229, 229);
+    font-size: 25px;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+}
+
+.statut-donations {
+    text-decoration: none;
+    font-size: 15px;
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    margin-top: 10px;
+    /* margin-left: 90px; */
+}
+.text-donations {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+    color: rgb(253, 212, 1);
+    align-self: center;
+    text-align: center;
+    margin-top: 0;
+}
+.donation-blue {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+    color: rgb(1, 22, 89);
+    font-weight: lighter;
+}
+.text-konto {
+    display: flex;
+    justify-content: start;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 10px;
+}
+.bank-logo {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0 0 20px;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.konto {
+    padding: 10px 20px  0 5px;
+}
+
+.konto-povidomlennia {
+    padding: 20px 20px  0 5px;
+    margin-top: 0;
+}
+.konto-dozvil {
+    font-size: 18px;
+    padding: 5px 20px  0 5px;
+    margin-top: -20px;
+}
+.logo-help {
+    width: 150px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 25px 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.container-help {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 25px;
+}
+.help {
+    /* font-family: 'Avanti', arial; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color: rgb(1, 22, 89);
+    align-self: center;
+    text-align: center;
+    margin: 0;
+}
+
+/* contacs */
+
+/* contact form */
+.contacts {
+    display: flex;
+    justify-content: center;
+    /* margin: 30px; */
+}
+#box-contacts {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 22, 89);
+}
+.formContactUs {
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    padding: 10px; 
+}
+.boxContactUs {
+    display: flex;
+    margin: 10px 20px;
+    justify-content: center;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+    color: rgb(253, 212, 1);
+}
+.text-input {
+    background-color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+}
+.text-input-message {
+    background-color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    width: 300px;
+    height: 150px;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+}
+.btn {
+    background-color: rgb(255, 132, 0);
+    padding: 20px 30px;
+    width: 280px;
+    font-size: 20px;
+    color: rgb(1, 22, 89);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(55, 105, 55);
+    color: white;
+    transform: scale(1.1); 
+    transition: transform 0.5s;
+} 
+
+/* address */
+#box-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+.text-address-top {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+    color: rgb(253, 212, 1);
+    margin-bottom: 5px;
+}
+.email-address {
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+}
+.text-address-yellow {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+    color: rgb(253, 212, 1);
+    margin: 0;
+    margin-left: 37px;
+    text-indent: 0;
+}
+.text-address {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avanti', arial; */
+    color: white;
+    margin: 0;
+}
+
+/* map */
+#box-map {
+    display: flex;
+    padding: 20px;
+}
+#map {
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/* footer-copyright */
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 22, 89);
+}
+h5 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #B2B2B2;
+}
+.copyright {
+    width: 15px;
+    padding-right: 40px 5px 0 5px;
+}
+
+/* button back-to-top */
+
+.topbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    opacity: 0.7; 
+    cursor: pointer;
+}
+.arrow {
+    width: 40px;
+}
+
+@media all and (max-width: 1280px) {
+
+#email {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+/* #heading  */
+#heading {
+    justify-content: space-around;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+#heading-name {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-right: auto;
+}
+#menu {
+    justify-content: center;
+}
+.link {
+    padding: 5px;
+    margin: 3px 20px;
+}
+
+/* titles */
+h2 {
+    font-size: 25px;
+    margin-bottom: auto;
+}
+.main-info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.image-one {
+    width: 380px;
+    height: 270px;
+}
+.image-two {
+    width: 280px;
+    left: 60px; 
+    top: 70px;  
+}
+.text {
+    margin: 20px 50px 10px 30px;
+}
+p {
+    font-size: 20px;
+}
+.text-one {
+    margin: 5px 50px 5x 50px;
+}
+
+/* pravlinnia */
+
+h3 {
+    font-size: 23px;
+}
+li {
+    font-size: 18px;
+}
+
+.statut {
+    margin-left: 60px; 
+    font-size: 16px;
+}
+
+/* donate */
+.text-donate {
+    flex: 1;
+}
+.donation {
+    font-size: 20px;
+}
+
+/* merch-karusel */
+
+.merch {
+    width: 280px;
+    height: 340px;
+}
+.btn-merch {
+    width: 35px;
+    height: 35px;
+}
+.text-donations {
+    font-size: 20px;
+}
+.text-konto {
+    width: 70%;
+}
+.bank-logo {
+    padding: 8px 0 0 20px;
+    margin: 8px;
+}
+.konto {
+    padding: 8px 10px  0 10px;
+}
+.logo-help {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 180px;
+}
+.container-help {
+    padding: 20px;
+}
+.help {
+    font-size: 20px;
+}
+
+/* contacs */
+/* contact form */
+
+#box-contacts {
+    margin-top: 20px;
+}
+.text-input {
+    width: 240px;
+    height: 35px;
+    font-size: 15px;
+}
+.text-input-message {
+    width: 240px;
+    height: 100px;
+    font-size: 15px;
+}
+
+/* address */
+#box-address {
+    width: 30%;
+} 
+.text-address-top {
+    font-size: 20px;
+}
+.text-address {
+    font-size: 18px;
+}
+
+/* map */
+#box-map {
+    width: 30%;
+}
+#map {
+    width: 350px;
+    height: 350px;
+}
+}
+
+@media all and (max-width: 1024px) {
+    #heading-name {
+        font-size: 30px;;
+    }
+    .text-direction {
+        font-size: 20px;
+    }
+    .text-konto {
+        width: 90%;
+    }
+    #map {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 912px) {
+    #heading-name {
+        font-size: 25px;
+    }
+    .main-info {
+        margin-left: 20px;
+        margin-right: 12px;
+    }
+    p {
+        font-size: 20px;
+    }
+    li {
+        font-size: 15px;
+    }
+    .container-heart {
+        margin-left: 20px;
+    }
+    #heart {
+        width: 250px;
+        margin-left: 50px;
+    }
+    .container-statut {
+        margin-top: 0px; 
+    }
+    .statut {
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    .box-donation-blue, .box-donation-yellow {
+        width: 45%;
+    } 
+    .donation-blue {
+        font-size: 20px;
+    }
+    label {
+        font-size: 18px;
+    }
+    .text-input,  .text-input-message {
+        width: 250px;
+        font-size: 14px;
+    }
+    .text-address-top {
+        font-size: 20px;
+    }
+    #box-address {
+        padding: 20px 5px;
+    }
+    .text-direction {
+        text-shadow: 0.2px 0.2px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .donation, .donation-blue, .konto, .text-donations, .help {
+        font-size: 18px;
+    }
+    .merch {
+        width: 250px;
+        height: 310px;
+    }
+    .konto-povidomlennia {
+        font-size: 16px;
+    }
+    .konto-dozvil {
+        font-size: 15px;
+    }
+    .logo-help {
+        width: 130px;
+    }
+    label {
+        font-size: 16px;
+    }
+    .text-input, .text-input-message  {
+        width: 200px;
+        font-size: 13px;
+    }
+    .btn {
+        width: 230px;
+    }
+    .text-address-top {
+        font-size: 18px;
+        text-align: start;
+    }
+    .email-address, .text-address{
+        font-size: 15px;
+        text-align: start;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #heading-name {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .merch {
+        width: 200px;
+        height: 280px;
+    }
+    .text-input, .text-input-message  {
+        width: 180px;
+        font-size: 11px;
+    }
+    .btn {
+        width: 210px;
+    }
+    .text-address-top {
+        font-size: 16px;
+    }
+    .email-address, .text-address{
+        font-size: 13px;
+    }
+    #map {
+        width: 210px;
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    #logo {
+        margin-left: 30px;
+    }
+    .main-info, .text-one, .text-donate {
+        flex-direction: column;
+    }
+    .pictures-BG {
+        align-self: center;
+    }
+    #menu {
+        flex-wrap: wrap;
+    }
+    .link {
+        font-size: 15px;
+    }
+    #heading-name {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .text-one {
+        margin-left: 50px;
+    }
+    .text-news {
+        margin-left: 0;
+    }
+    .container-heart, #heart {
+        margin-left: 0;
+    }
+    .box-heart {
+        align-self: center;
+    }
+    .box-donation-blue, .box-donation-yellow {
+        align-self: center;
+        width: 80%;
+    }
+    #box-contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .formContactUs {
+        width: 100%;
+    }
+    form {
+        width: 100%;
+    }
+    .text-input {
+        width: 400px;
+    }
+    .text-input-message  {
+        width: 400px;
+        height: 50px;
+    }
+    .btn {
+        width: 440px;
+        margin-top: 25px;
+    }
+    #box-address {
+        width: 80%;
+    }
+    #box-map {
+        justify-content: center;
+        width: 80%;
+    }
+    #map {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 414px) {
+    #logo {
+        width: 70px;
+        height: 70px;
+    }
+    #heading-name {
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    #menu {
+        flex-direction: column;
+    }
+    p, .text-news {
+        font-size: 16px;
+    }
+    li {
+        font-size: 13px;
+    }
+    .statut {
+        font-size: 11px;
+    }
+    .text-direction {
+        font-size: 16px;
+        padding-left: 0;
+    }
+    .text-input {
+        width: 300px;
+    }
+    .text-input-message  {
+        width: 300px;
+        height: 70px;
+    }
+    .btn {
+        width: 340px;
+    }
+    .news {
+        align-self: center;
+        margin-right: 50px;
+    }
+    .konto {
+        font-size: 14px;
+    }
+    .konto-dozvil {
+        padding: 5px ;
+    }
+    .merch {
+        height: 260px;
+    }
+    .btn-merch {
+        width: 33px;
+        height: 33px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 393px) {
+    #menu-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+    }
+    .image-one {
+        width: 350px;
+        height: 250px;
+    }
+    .image-two {
+        width: 250px;
+    }
+    .konto-dozvil {
+        text-align: center;
+        padding: 10px 40px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .image-one {
+        width: 320px;
+        height: 210px;
+    }
+    .image-two {
+        width: 210px;
+    }
+    .text-donations, .help, .donation, .donation-blue, .konto-povidomlennia {
+        font-size: 15px;
+    }
+    .konto-dozvil {
+        font-size: 13px;
+    }
+    .merch {
+        width: 180px;
+        height: 220px;
+    }
+    .text-input, .text-input-message {
+        width: 270px;
+    }
+    .copyright {
+        width: 13px;
+        padding-right: 50px 5px 0 5px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    #heading {
+        flex-wrap: wrap;
+    }
+    #heading-name {
+        margin-top: 15px;
+    }
+    .text {
+        margin: 20px;
+    }
+    .image-news {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .bank-logo {
+        width: 30px;
+        height: 30px;
+    }
+    .konto {
+        font-size: 12px;
+    }
+    .btn {
+        width: 310px;
+    }
+    h5 {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    .text-input, .text-input-message {
+        width: 200px;
+    }
+    .donation {
+        padding-left: 20px;
+        justify-content: center;
+    }
+    .merch {
+        width: 150px;
+        height: 190px;
+    }
+    .btn-merch {
+        width: 28px;
+        height: 28px;
+        margin: 5px;
+    }
+    .statut-donations {
+        font-size: 12px;
+    }
+    .text-donations, .help, .konto-povidomlennia {
+        font-size: 12px;
+    }
+    .bank-logo {
+        width: 25px;
+        height: 25px;
+        margin: 0px;
+    }
+    .konto {
+        font-size: 11px;
+    }
+    .konto-dozvil {
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .image-one {
+        width: 240px;
+        height: 190px;
+    }
+    .image-two {
+        width: 180px;
+        left: 45px;
+    }
+    .text {
+        margin: 10px;
+    }
+    p, .text-news {
+        font-size: 14px;
+    }
+    .text-one, .text-two {
+        margin: 10px 30px;
+    }
+    .text-direction {
+        font-size: 14px;
+    }
+    li {
+        font-size: 13px;
+    }
+    .statut {
+        margin-left: 0;
+    }
+    .btn {
+        width: 236px;
+    }
+}
